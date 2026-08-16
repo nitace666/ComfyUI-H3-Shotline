@@ -1,0 +1,10 @@
+﻿,1,2,3,4,5,6,7,8,9
+Picture,reference.png,,,,,,,,,
+Video,,,,,,,,,
+Audio,,,,,,,,,
+aspect,16:9
+quality,0.4
+steps,8V8A
+ID,prompt,duration,seed,export_name
+s01,"<Picture 1> A woman walks through a rainy street at night, cinematic, photorealistic",5,424242,s01
+s02,"<Picture 1> She turns to face the camera and smiles, saying: good evening, warm light",5,111111,s02

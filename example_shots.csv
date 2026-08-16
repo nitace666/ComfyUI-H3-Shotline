@@ -1,0 +1,9 @@
+﻿,1,2,3,4,5,6,7,8,9
+Picture,reference.png,,,,,,,,,
+Video,,,,,,,,,
+Audio,,,,,,,,,
+aspect,16:9
+quality,0.4
+steps,8V8A
+ID,prompt,duration,seed,export_name
+s01,"<Picture 1> A woman walks through a rainy street at night, cinematic, photorealistic, soft neon reflections, steady camera.",5,424242,s01

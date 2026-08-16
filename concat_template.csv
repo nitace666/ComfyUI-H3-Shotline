@@ -1,0 +1,11 @@
+﻿,1,2,3,4,5,6,7,8,9
+Picture,,,,,,,,,
+Video,,,,,,,,,
+Audio,,,,,,,,,
+aspect,16:9
+quality,0.4
+steps,4V8A
+ID,prompt,duration,seed,export_name
+seg01,"Segment 1: opening shot of the rainy city, cinematic, slow camera push-in",,555501,seg01
+seg02,"Segment 2: push through the door into the room, continuing the previous scene",,555502,seg02
+seg03,"Segment 3: turn and speak to the camera",,555503,seg03

@@ -1,0 +1,25 @@
+# Internal / non-release
+# These files are NOT part of the open-source package and must never be committed.
+版本说明.md
+评审与验证报告.md
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local benchmark artifacts
+.benchmarks/
+
+# Temp localization scripts (cleaned before release)
+_loc*.py
+
+# ZCode / Codex session artifacts
+.zcode/

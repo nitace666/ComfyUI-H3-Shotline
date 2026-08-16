@@ -1,0 +1,14 @@
+# H3 Shot Batch Renderer V1.0 (open-source) — Python dependencies
+#
+# The ComfyUI node mode uses ONLY the Python standard library.
+# No third-party packages are required for node / CSV / engine functionality.
+#
+# Note: This node calls the following ComfyUI-bundled modules at runtime,
+# which are NOT pip dependencies but must be available in the ComfyUI
+# Python environment:
+#   - comfy_aimdo.folder_paths  (for input / output directory resolution)
+#
+# Third-party ComfyUI custom nodes required at runtime (separately licensed):
+#   - MiniMax H3 nodes (MiniMaxH3ReferenceToVideo, MiniMaxH3ImageToVideo,
+#     MiniMaxH3TurboLoRA, MiniMaxH3MultiRateSamplerEXPT8)
+#   - ffmpeg (must be on PATH for last-frame extraction and video concatenation)
