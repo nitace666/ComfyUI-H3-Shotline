@@ -60,13 +60,13 @@ If you have any doubt about whether your intended use is compliant, **stop and c
 
 ```bash
 cd ComfyUI/custom_nodes/
-git clone https://github.com/<your-repo>/ComfyUI-H3-BatchRenderer-1.0.git
+git clone https://github.com/nitace666/ComfyUI-H3-Shotline.git
 # Restart ComfyUI
 ```
 
-Or copy the contents of this directory into `ComfyUI/custom_nodes/ComfyUI-H3-BatchRenderer-1.0/`.
+Or copy the contents of this directory into `ComfyUI/custom_nodes/ComfyUI-H3-Shotline/`.
 
-> **Coexisting with V1.1 / V1.2:** this node registers as `H3ShotBatchRenderer`. If you also install `ComfyUI-H3-BatchRenderer/` (V1.1 or V1.2), the two share the same node name and the **last-installed (by load order) wins**; the other is replaced. Install only one. V1.1 / V1.2 supersede V1.0 (they include all V1.0 features plus more), so you don't need V1.0 if you use them.
+> **Coexisting with V1.1 / V1.2:** this node registers as `H3ShotBatchRenderer`. If you also install the V1.1 / V1.2 node, the two share the same node name and the **last-installed (by load order) wins**; the other is replaced. Install only one. V1.1 / V1.2 supersede V1.0 (they include all V1.0 features plus more), so you don't need V1.0 if you use them.
 
 ---
 
