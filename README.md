@@ -1,8 +1,24 @@
-# H3 Shot Batch Renderer — V1.0
+# H3 Shotline — V1.0
 
 A ComfyUI custom node that turns the MiniMax H3 AI video model into a CSV-driven batch video production pipeline. Fill in one CSV (material pool + storyboard table) and the node batches out all shots automatically, saving hours of manual one-shot-at-a-time work.
 
 > **V1.0** is the open-source archive release. Newer versions (V1.1, V1.2) add preflight checks, a path picker, a CSV form wizard, dual-anchored single-shot rerun, completion toasts, a template dropdown, and more. They supersede V1.0.
+
+---
+
+## Why H3 Shotline? / The problem it solves
+
+Generating **high-quality long videos on a low-VRAM card is nearly impossible** — a single long, high-resolution generation almost always ends in **OOM (out-of-memory)**. H3 Shotline makes it practical by **splitting the work into short segments** and **stitching them with first/last-frame continuity**.
+
+| Pain point | What H3 Shotline gives you |
+|---|---|
+| 🧠 **Low VRAM can't do long videos** | **Make big videos on a small GPU a reality** — render 5-second segments and chain them, instead of one giant generation |
+| ⏱️ **One-shot long generation is slow** | A 15-second video rendered in one pass can take 15–30 minutes; **segmented rendering saves ~50%+ of the time** |
+
+### Two things to keep in mind
+
+- 🎵 **Skip background music.** H3 mixes speech and music into a single track that can't be split, so extending a segment with music causes an audible break at each seam. Plan your soundtrack for post-processing instead.
+- 🎨 **Low-quality settings drift.** At low `quality` (< 0.4) both sharpness and cross-segment consistency are more likely to drift. **Anchor each shot with a precise prompt** (and, in concat mode, let the tail-frame chaining do the continuity work) for stable results.
 
 ---
 
