@@ -2,7 +2,7 @@
 
 A ComfyUI custom node that turns the MiniMax H3 AI video model into a CSV-driven batch video production pipeline. Fill in one CSV (material pool + storyboard table) and the node batches out all shots automatically, saving hours of manual one-shot-at-a-time work.
 
-> **V1.0** is the open-source archive release. Newer versions (V1.1, V1.2) add preflight checks, a path picker, a CSV form wizard, dual-anchored single-shot rerun, completion toasts, a template dropdown, and more. They supersede V1.0.
+> **V1.0** is the open-source archive release of H3 Shotline — a CSV-driven batch renderer for MiniMax H3 video.
 
 ---
 
@@ -81,8 +81,6 @@ git clone https://github.com/nitace666/ComfyUI-H3-Shotline.git
 ```
 
 Or copy the contents of this directory into `ComfyUI/custom_nodes/ComfyUI-H3-Shotline/`.
-
-> **Coexisting with V1.1 / V1.2:** this node registers as `H3ShotBatchRenderer`. If you also install the V1.1 / V1.2 node, the two share the same node name and the **last-installed (by load order) wins**; the other is replaced. Install only one. V1.1 / V1.2 supersede V1.0 (they include all V1.0 features plus more), so you don't need V1.0 if you use them.
 
 ---
 
